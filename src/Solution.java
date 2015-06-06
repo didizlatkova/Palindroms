@@ -25,7 +25,7 @@ public class Solution {
 	}
 
 	public static boolean isPalindrome(String word) {
-		for (int i = 0; i < Math.floor(word.length() / 2) - 1; i++) {
+		for (int i = 0; i <= Math.floor(word.length() / 2) - 1; i++) {
 			if (word.charAt(i) != word.charAt(word.length() - i - 1)) {
 				return false;
 			}
